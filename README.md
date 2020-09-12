@@ -1,3 +1,3 @@
 # shoppiebuzz-frontend
 
-Hello test
+Hello test  added text

@@ -4,8 +4,10 @@ import './registration.css';
 const Registration = () => {
     return(
        
-       
-            <h1>REGISTRATION</h1>
+            <div classname="upper_part">
+                <h1>REGISTRATION</h1>
+            </div>
+            
        
     );
 };

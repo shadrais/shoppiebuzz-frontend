@@ -1,10 +1,14 @@
 body
 {
-    background-color: aqua;
-
+    background-image:url('/background_picture_for_shoppiebuzz.jpg');
+    left: 50%;
+    width:100%;
 }
 .upper_part
 {
     color: red;
-    width:400px;
+    font-size: 5em;
+    z-index: 500;
+    position: centre;
+    height:300;   
 }

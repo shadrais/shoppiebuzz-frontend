@@ -1,14 +1,47 @@
 body
 {
     background-image:url('/background_picture_for_shoppiebuzz.jpg');
-    left: 50%;
-    width:100%;
+    text-align:center;
+    width:700px;
+    height:500px;
+    margin:100px auto;
+    position:relative;
+    border:10px solid black;
 }
 .upper_part
 {
-    color: red;
-    font-size: 5em;
-    z-index: 500;
-    position: centre;
-    height:300;   
+    color: white;
+    height: 50px;
+    width:600px;
+    border:10px solid red;
+    position:relative;
+    margin:50px;
+    background-color:black;   
+}
+.lower_part
+{
+    text-align: center;
+    color:black;
+    font-size:150%;
+    font-weight:bold;
+}   
+.tap
+{
+  background-color: red;
+  border: 5px solid black;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight:bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:50px;
+  height:20px;
+}
+.textpos
+{
+
 }

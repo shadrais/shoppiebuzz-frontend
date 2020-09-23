@@ -21,17 +21,23 @@ body
 .lower_part
 {
     display: flex;
+    flex-direction:column;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     color:black;
     font-size:150%;
     font-weight:bold;
-}   
-.tap
+} 
+.inputbox
 {
     display:flex;
     align-items:flex-end;
+}  
+.tap
+{
+  display:flex;
+  align-items:flex-start;
   background-color: red;
   border: 5px solid black;
   color:black;

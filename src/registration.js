@@ -11,7 +11,7 @@ function Registration(){
            <div className='lower_part'>
         
            <label className='textpos'>Name            :-</label>
-           <input type='text'></input>
+           <input type='text' className="inputbox"></input>
         
            <label className='textpos'>Email Address   :-</label>
            <input type='text'></input>

@@ -1,6 +1,6 @@
 body
 {
-    background-image:url('/background_picture_for_shoppiebuzz.jpg');
+    background-color:cyan;
     text-align:center;
     width:700px;
     height:500px;
@@ -32,7 +32,6 @@ body
 .inputbox
 {
     display:flex;
-    align-items:flex-end;
 }  
 .tap
 {
@@ -50,5 +49,12 @@ body
   cursor: pointer;
   width:50px;
   height:20px;
+  justify-content: flex-end;
 }
-
+@keyframes animation
+{
+    0%{ background-color:red;left:0px;top:0px;border-radius: 0 0 0 0;}
+    25%{ background-color:blue;left:300px;top:0px;border-radius:50% 0 0 0;}
+    50%{ background-color:yellow;left:300px;top:300px;border-radius:50% 50% 0 0;}
+    100%{ background-color:black;left:0px;top:0px;border-radius:50% 50% 50% 50%;}
+}

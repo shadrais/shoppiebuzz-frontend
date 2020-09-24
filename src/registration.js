@@ -9,7 +9,6 @@ function Registration(){
            </h1>
            </div>
            <div className='lower_part'>
-        
            <label className='textpos'>Name            :-</label>
            <input type='text' className="inputbox"></input>
         

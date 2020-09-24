@@ -6,14 +6,12 @@ body
     height:500px;
     margin:100px auto;
     position:relative;
-    border:10px solid black;
 }
 .upper_part
 {
     color: white;
     height: 50px;
     width:600px;
-    border:10px solid red;
     position:relative;
     margin:50px;
     background-color:black;   
@@ -38,7 +36,6 @@ body
   display:flex;
   align-items:flex-start;
   background-color: red;
-  border: 5px solid black;
   color:black;
   padding: 15px 32px;
   text-align: center;
@@ -50,11 +47,4 @@ body
   width:50px;
   height:20px;
   justify-content: flex-end;
-}
-@keyframes animation
-{
-    0%{ background-color:red;left:0px;top:0px;border-radius: 0 0 0 0;}
-    25%{ background-color:blue;left:300px;top:0px;border-radius:50% 0 0 0;}
-    50%{ background-color:yellow;left:300px;top:300px;border-radius:50% 50% 0 0;}
-    100%{ background-color:black;left:0px;top:0px;border-radius:50% 50% 50% 50%;}
 }

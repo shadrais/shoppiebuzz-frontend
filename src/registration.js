@@ -9,26 +9,26 @@ function Registration(){
            </h1>
            </div>
            <div className='lower_part'>
-           <label className='textpos'>Name            :-</label>
+           <label className='textpos'>Name            </label>
            <input type='text' className="inputbox"></input>
         
-           <label className='textpos'>Email Address   :-</label>
+           <label className='textpos'>Email Address   </label>
            <input type='text'></input>
          
-           <label className='textpos'>Address         :-</label>
+           <label className='textpos'>Address         </label>
            <input type='text'></input>
            
            
-           <label className='textpos'>Phone Number    :-</label>
+           <label className='textpos'>Phone Number    </label>
            <input type='text'></input>
            
            
-           <label className='textpos'>Password         :-</label>
+           <label className='textpos'>Password         </label>
            <input type='text'></input>
            
            </div>
-           <div className='tap'>
-           <label>Register</label>
+           <div>
+                <button>Register</button>
            </div>
 
        </form>

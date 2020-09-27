@@ -14,3 +14,7 @@ nav{
     
     list-style: none;
 }
+
+.navlinks li {
+    padding-left: 10px;
+}

@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    min-width: 19vh;
+    background-color: black;
+    color: aliceblue;
+   padding-left: 10px;
+}
+
+.navlinks{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    
+    list-style: none;
+}

@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from '../../components/header/header';
 
 const Frontpage = () => {
     return (
         <div>
-            <h1>Hello</h1>
+            <Header />
+            
         </div>
     )
 }

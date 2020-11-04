@@ -5,6 +5,7 @@ nav{
     background-color: black;
     color: aliceblue;
    padding-left: 10px;
+    height: 4rem;
 }
 
 .navlinks{
@@ -16,5 +17,6 @@ nav{
 }
 
 .navlinks li {
+    padding-top: 2rem;
     padding-left: 10px;
 }

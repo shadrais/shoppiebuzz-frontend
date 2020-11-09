@@ -14,9 +14,14 @@ const Header = () => {
              </Link> 
             </li>
             <li >
-             <Link to='/register'>
-              Register
-             </Link> 
+             <Link to='/contact'>
+              Contact Us
+             </Link>
+            </li>
+            <li >
+             <Link to='/about'>
+              About Us
+             </Link>
             </li>
           </ul>
         </nav>

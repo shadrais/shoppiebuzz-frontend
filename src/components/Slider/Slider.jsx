@@ -1,57 +1,27 @@
-import React from 'react';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import "./Slider.css";
+import React from 'react'
+import { Carousel } from 'react-bootstrap'
+import post1 from '../../assets/Post1.jpg'
+import post2 from '../../assets/Post2.jpg'
+import post3 from '../../assets/Post3.jpg'
 
-import  post1 from '../../assets/Post1.jpg';
-import  post2 from '../../assets/Post2.jpg';
-import  post3 from '../../assets/Post3.jpg';
+const Slider = () => {
+  return (
+    <>
+      <Carousel>
+        <Carousel.Item interval={1000}>
+          <img className='d-block w-100' src={post1} alt='First slide' />
+        </Carousel.Item>
 
-const Photos = [
-    {
-        name: 'image1',
-        url : post1
-    },
-    {
-        name: 'image2',
-        url : post2
-    },
-    {
-        name: 'image3',
-        url : post3
-    }
+        <Carousel.Item interval={500}>
+          <img className='d-block w-100' src={post2} alt='Third slide' />
+        </Carousel.Item>
 
-]
-
-
-
-const Sliders = () => {
-
-    const setting = {
-        dots:true,
-        fade:true,
-        infinite:true,
-        speed:500,
-        slideToShow:1,
-        arrows:true,
-        slideToScroll:1,
-        className:"slides"
-    }
-
-
-    return (
-        <Slider {...setting}>
-            {Photos.map((photo) => {
-                return (
-                    <div className='slide'>
-                        <img width="70%" height="30%" src = {photo.url} alt='' />
-                    </div>
-                )
-            } ) }
-        </Slider >
-    )
+        <Carousel.Item>
+          <img className='d-block w-100' src={post3} alt='Third slide' />
+        </Carousel.Item>
+      </Carousel>
+    </>
+  )
 }
 
-
-export default Sliders;
+export default Slider

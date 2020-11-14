@@ -6,7 +6,7 @@ import post3 from '../../assets/Post3.jpg'
 
 const Slider = () => {
   return (
-    <Container fluid='sm'>
+    <Container fluid='sm' className='py-3 m-auto'>
       <Carousel>
         <Carousel.Item interval={1000}>
           <img

@@ -1,34 +1,29 @@
 import React from 'react'
-import { Form, Button } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Sign-in.css'
-
 const Signin = () => {
   return (
     <>
       <Form>
-        <Form.Group controlId='formBasicEmail'>
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type='email' placeholder='Enter email' required />
-          <Form.Text className='text-muted'>
-            We'll never share your email with anyone else.
-          </Form.Text>
-        </Form.Group>
+        <div className='main-body'>
+          <h2>LOGIN</h2>
+          <div className='email'>
+            <input type='text' id='email' placeholder='Email Address'></input>
+          </div>
 
-        <Form.Group controlId='formBasicPassword'>
-          <Form.Label>Password</Form.Label>
-          <Form.Control type='password' placeholder='Password' required />
-        </Form.Group>
+          <div className='pass'>
+            <input type='password' id='pass' placeholder='Password'></input>
+          </div>
 
-        <Button variant='primary' type='submit'>
-          Submit
-        </Button>
+          <div>
+            <button className='btn-1'>Submit</button>
+          </div>
 
-        <Link to='/register'>
-          <Button variant='primary' type='button'>
-            Don't have a account?
-          </Button>
-        </Link>
+          <Link to='/register'>
+            <button className='btn-2'>Don't have an account?</button>
+          </Link>
+        </div>
       </Form>
     </>
   )

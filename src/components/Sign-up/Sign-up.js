@@ -1,35 +1,28 @@
 import React from 'react'
-import { Form, Button } from 'react-bootstrap'
-
+import { Form} from 'react-bootstrap'
+import './Sign-up.css'
 const Signup = () => {
   return (
     <>
       <Form>
-        <Form.Group controlId='formBasicName'>
-          <Form.Label>Name</Form.Label>
-          <Form.Control type='text' placeholder='Name' />
-          <Form.Text className='text-muted'></Form.Text>
-        </Form.Group>
-
-        <Form.Group controlId='formBasicEmail'>
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type='email' placeholder='Enter email' />
-          <Form.Text className='text-muted'></Form.Text>
-        </Form.Group>
-
-        <Form.Group controlId='formBasicPassword'>
-          <Form.Label>Password</Form.Label>
-          <Form.Control type='password' placeholder='Password' />
-        </Form.Group>
-
-        <Form.Group controlId='formBasicPassword'>
-          <Form.Label>Confirm Password</Form.Label>
-          <Form.Control type='password' placeholder='Confirm Password' />
-        </Form.Group>
-
-        <Button variant='primary' type='submit'>
-          Submit
-        </Button>
+      <div className='main-body2'>
+        <h1>Register</h1>
+          <div className='email'>
+            <input type='text' id='email' placeholder='Name'></input>
+          </div>
+          <div className='email'>
+            <input type='text' id='email' placeholder='Email Address'></input>
+          </div>
+        <div className='pass'>
+          <input type='password' id='pass' placeholder='Password'></input>
+        </div>
+        <div className='pass'>
+          <input type='password' id='pass' placeholder='Confirm Password'></input>
+        </div>
+        <div>
+        <button className='btn-1'>Submit</button>
+        </div>
+        </div>
       </Form>
     </>
   )
